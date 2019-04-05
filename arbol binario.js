@@ -89,7 +89,7 @@ class ArbolBinario {
             d+= " " + this.preO(r.Hizq);
         }
         if(r.Hder != null){
-            d +=this.inO(r.Hder) + " ";
+            d +=this.preO(r.Hder) + " ";
         }
         return d;
     }
